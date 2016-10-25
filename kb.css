@@ -1,3 +1,86 @@
-body {
-    background: url(hexagons.png);
+/***** Top Nav *****/
+
+#mainNav .navbar {
+    background: rgba(0, 0, 0, 0);
 }
+
+.navbar .navbar-inner {
+    background: rgba(0, 0, 0, 0);
+}
+
+/***** Tabs *****/
+
+.navbar .nav li a {
+    background: #187dab;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    color: #ffffff;
+}
+
+.navbar .nav li a:hover {
+    background: #1e9dd6;
+}
+
+.active {
+    background: #1e9dd6;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+#sidebar li.active {
+    background: none;
+    text-decoration: bold;
+}
+
+/***** Search bar *****/
+
+#docsSearch {
+    background: #1e9dd6;
+    border: none;
+}
+
+#docsSearch h1 {
+    color: #ffffff;
+}
+
+#searchBar button {
+    background: #0c3e55;
+/*    border: .5px solid #95b8e0;*/
+    border: none;
+}
+
+#searchBar button:hover {
+    background: #0f4e6b;
+}
+
+/***** Article area *****/
+
+body {
+    background: none !important;
+}
+
+.category {
+    background: #ffffff;
+    border: none !important;
+    box-shadow: 3px 3px 5px 0 #7c7c7c;
+    border-radius: 5px;
+}
+
+.category:hover {
+    background: #e9fbfb !important;
+    color: #ffffff !important;
+}
+
+html {
+    background: url("http://3807d93db004f89948ea-8bb991847415eafc7f1844f7a14f76ae.r82.cf1.rackcdn.com/hexagons.png") !important;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+
+
+
